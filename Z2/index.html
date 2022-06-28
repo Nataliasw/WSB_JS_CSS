@@ -45,5 +45,41 @@
 
     </div>
 
+    <div class="container pt-3">
+
+        <h2 class="text-center pb-3">
+            Random Facts!
+        </h2>
+
+
+        <div class="row">
+            <div class=col-sm-6>
+
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                        <label class="col-form-label float-right">
+                            Language
+                        </label>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <select class="form-control" id="cat"></select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-12">
+                        <button class="btn btn-primary float-right" onclick="generateFact()">Generate random facts!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div id="fact-div" class="text-center"></div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 </html>
